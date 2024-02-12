@@ -1,0 +1,345 @@
+*{
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 180px;
+    margin: 20px;
+}
+.home{
+    display: flex;
+}
+.top{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: red;
+}
+.login{
+    margin: 18px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+}
+.register{
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.fa-lock{
+    font-size: 20px;
+    color: red;
+}
+.main{
+    position: relative;
+    left: 200px;
+    display: flex;
+    width: 1100px;
+    height: 650px;
+    border:none;
+    border-radius: 10px;
+    background-color:rgba(96, 194, 236, 0.09);
+}
+.logo1{
+    display: flex;
+}
+.logo2{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.logo3{
+    margin-top: 50px;
+    font-size: 40px;
+    color: red;
+}
+.space{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.location{
+    width: 300px;
+    height: 50px;
+    margin-left: 35px;
+    border-color: red;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.fa-solid,fa-location-dot{
+    position: relative;
+    left: 65px;
+    color: red;
+}
+::placeholder{
+    padding-left: 40px;
+}
+.in{
+    width: 150px;
+    height: 45px;
+    margin-left: 30px;
+    background-color: white;
+    border-color: red;
+}
+.out{
+    width: 150px;
+    height: 45px;
+    margin-left: 30px;
+    background-color: white;
+    border-color: red;
+}
+.check{
+    position: relative;
+    right: 150px;
+    top: 15px;
+    width: 40px;
+}
+.search{
+    font-size: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 60px;
+    color: white;
+    background-color: red;
+    font-weight:bolder;
+    border-radius: 40px;
+    border: none;
+}
+.screen{
+    height: 500px;
+    position:relative;
+    top: 50px;
+}
+.every{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+
+}
+.card{
+    position: relative;
+    left: 120px;
+    width:100%;
+    height: 520px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+}
+.card1{
+    position: relative;
+    left: 150px;
+    margin: 20px;   
+    width:300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.card2{
+    position: relative;
+    left: 150px;
+    margin: 20px;
+    width:300px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.card3{
+    position: relative;
+    left: 150px;
+    margin: 20px;
+    width:300px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.city{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+.heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.find{
+    position: relative;
+    left: 70px;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+}
+.redcard{
+    position: relative;
+    left: 150px;
+    overflow: hidden;
+    width: 80%;
+    height: 750px;
+    border:none;
+    color: white;
+    background-color: rgb(213, 36, 36);
+}
+.redcard1{
+    width:350px;
+    height: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.why{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.redimg{
+    width: 120px;
+    position: relative;
+    left: 120px;
+}
+.fast{
+    text-align: center;
+    font-size: 30px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    padding-top: 20px;
+}
+.airport{
+    position: relative;
+    left: 100px;
+}
+.airport1{
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+}
+.day{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.book{
+    position: relative;
+    left: 80px;
+    top: 50px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+.comment{
+    width: 600px;
+    height: 300px;
+    border: 1px solid grey;
+    position: relative;
+    left: 100PX;
+    border-radius: 10PX;
+}
+.red{
+    width: 70px;
+}
+.ano{
+    position: relative;
+    bottom: 80px;
+    left: 80px;
+}
+.us{
+    font-size: 20px;
+    text-align: center;
+}
+.h2{
+    margin: 30PX;
+    color: red;
+    font-size: 20PX;
+}
+.read{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article{
+    width: 350px;
+    height: 500px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 20px;
+}
+.ins{
+    width: 100%;
+    height: 230px;
+}
+.heg{
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+}
+.bupi{
+    width: 100%;
+    height: 600px;
+}
+.wi{
+    position: relative;
+    bottom: 600px;
+    left: 550px;
+    font-size: 60px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.gr{
+    position: relative;
+    bottom: 600px;
+    left: 550px;
+    color: white;
+    font-size: 30px;
+}
+.a{
+    position: relative;
+    bottom: 600px;
+    left: 650px;
+    margin-top:30px;
+    width: 250px;
+    height: 80px;
+    border:none;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;  
+}
